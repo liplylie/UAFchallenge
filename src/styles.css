@@ -55,7 +55,7 @@ ul li:hover {
 }
 
 .header {
-    font-size: 22px;
+    font-size: 1.8em;
     font-weight: none;
 }
 
@@ -68,4 +68,14 @@ ul li:hover {
 .tab { 
        display:inline-block; 
        margin-left: 2vw; 
+}
+
+@media only screen and (max-width: 600px) {
+   * {
+       font-size: 12px;
+   }
+
+   .button {
+       margin: .5em;
+   }
 }
