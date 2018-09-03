@@ -1,3 +1,3 @@
 # UAFchallenge
 
-git clone and hit `npm start`.
+git clone, `npm install`, and `npm start`.
