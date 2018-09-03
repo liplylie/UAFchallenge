@@ -7,7 +7,7 @@ const htmlWebpackPlugin = new HtmlWebPackPlugin({
 });
 
 module.exports = {
-    entry: join(__dirname, 'src', 'index.js'),
+    entry: join(__dirname, 'src'),
     output: {
         filename: 'bundle.js',
         path: resolve(__dirname, 'dist')
@@ -38,7 +38,12 @@ module.exports = {
                         }
                     }
                 ]
-            }
+            },
+            {
+                test: /\.(png|jpg|gif|jpeg)$/,
+                loader: 'file-loader',
+                options: {}
+            },
         ]
     },
     plugins: [htmlWebpackPlugin]

@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Karla, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+    margin-left: -2vw;
+    opacity: .7;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+ul li:hover {
+    background:aliceblue url("blueCheck.png") no-repeat;
+    background-size: 1em;
+    background-position: 90% 50%;
+}
+
+.checkMark {
+    height: 1em;
+    width: 1em;
+}
+
+.checkMark:hover {
+    display: hidden
+}
+
+.button {
+    display: inline-block;
+    margin-right: 1em;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+
+.logo {
+    height: 5em;
+    width: 5em;
+    margin-right: 1vw;
+}
+
+.header {
+    font-size: 22px;
+    font-weight: none;
+}
+
+.grayline {
+    height: 4px;
+    background-color: gainsboro;
+    margin-left: -2vw;
+}
+
+.tab { 
+       display:inline-block; 
+       margin-left: 2vw; 
+}
